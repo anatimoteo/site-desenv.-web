@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Quicksand:wght@300&display=swap');
+
+
+html {
+  font-family:'Castoro Titling', cursive;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+body {
+  background: linear-gradient(to bottom, #a78485, #7e5556);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav {
+  text-align: center;
+}
+
+nav>a {
+  color: rgb(80, 79, 79);
+  font-weight: bold;
+  font-size: 22px;
+  text-align: auto;
+  min-height: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #795354;
+  color: #BC9798;
+  transition-duration: 0.7s;
+  font-weight: bold;
+  border-radius: 8%;
+}
+
+main {
+  position: relative;
+  background-color: #b39091;
+  padding: 20px;
+  border-radius: 10px;
+  width: 900px;
+  margin: auto;
+  font-size: 23px;
+}
+
+h1 {
+  text-align: justify;
+  color: rgb(100, 99, 99);
+  text-decoration: underline;
+  font-size: 23px;
+
+}
+
+h2 {
+  text-align: justify;
+  color: whitesmoke;
+  font-weight: 250;
+  font-size: 21px;
+}
+
+p {
+  font-size: 22px;
+  text-indent: 15px;
+}
+
+li {
+  color: whitesmoke;
+
+}
+
+table, th, td , tr {
+  border: 1px solid rgb(245, 242, 242);
+  }
+
+  .control {
+    position: absolute;
+  right: 30px;
+  bottom: 10px
+  }
+
+  .btnControl{
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.514);
+  }
+
+  .btnControl:hover {
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    
+  }
