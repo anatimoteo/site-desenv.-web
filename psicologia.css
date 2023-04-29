@@ -1,0 +1,19 @@
+body {
+  background-color: var(--black);
+  color: var(--ice-gray);
+}
+
+main {
+  padding: 20px;
+  border-radius: 10px;
+  width: 1200px;
+  margin: auto;
+  font-size: 23px;
+}
+
+
+table, th, td {
+  margin: 100px 0px ;
+  padding: 10px;
+  border-collapse: collapse;
+}

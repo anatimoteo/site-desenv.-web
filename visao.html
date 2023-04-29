@@ -4,60 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="imagens/circulocromatico.png"
+      type="image/x-icon"
+    />
+    <title>Teoria da Cor</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <hr />
     <nav>
-      <a href="inicio.html">Início</a>
-      <a href="visao.html">Como enxergamos as cores?</a>
-      <a href="caracteristicas.html">Características das Cores</a>
-      <a href="psicologia.html">Psicologia das Cores</a>
+      <div>
+        <p class="logo">Site da Ana</p>
+        <p class="navTitle">| Como enxergamos as cores</p>
+      </div>
+      <menu class="links">
+        <a href="inicio.html">Início</a>
+        <a href="visao.html">Como enxergamos as cores</a>
+        <a href="caracteristicas.html">Características das Cores</a>
+        <a href="psicologia.html">Psicologia das Cores</a>
+      </menu>
     </nav>
-    <hr />
 
     <main>
-      <h1>Como enxergamos as cores?</h1>
+      <section class="section1Visao">
+        <div class="titleAndText">
+          <h1 class="title">Como enxergamos as cores?</h1>
+          <p class="text">
+            A visão, um dos principais sentidos do corpo humano, é uma das
+            formas mais potentes de percepção e interpretação do ambiente ao
+            redor já inventadas pela natureza. Ela é capaz de captar diferentes
+            comprimentos de luz visível – a fração do
+            <strong>espectro eletromagnético</strong> que nossos olhos conseguem
+            detectar – e, transformando-os em estímulos nervosos, entender as
+            formas, cores e tamanhos dos mais diversos objetos e seres
+            existentes nas redondezas.
+          </p>
+        </div>
+        <div class="espectro"></div>
+      </section>
 
-      <h2>
-        A visão, um dos principais sentidos do corpo humano, é uma das formas
-        mais potentes de percepção e interpretação do ambiente ao redor já
-        inventadas pela natureza. Ela é capaz de captar diferentes comprimentos
-        de luz visível – a fração do
-        <strong>espectro eletromagnético</strong> que nossos olhos conseguem
-        detectar – e, transformando-os em estímulos nervosos, entender as
-        formas, cores e tamanhos dos mais diversos objetos e seres existentes
-        nas redondezas.
-      </h2>
-
-      <img style="margin: auto; display: block;"
-        src="imagens/espectrovisivel.png"
-        title="Espectro Eletromagnético"
-        width="550px"
-      />
-
-      <h2>
-        Para que a nossa visão funcione, é necessário que os nossos olhos captem
-        uma quantidade mínima de luz. Existem dois tipos principais de
-        fotorreceptores, o centro da retina, chamado de fóvearetiniana, é
-        formado por cerca de 7 milhões de fibrilas nervosas, denominadas cones,
-        responsáveis pela visão em cores: visão tricomática. As células que
-        captam os estímulos luminosos fornecidos pelo ambiente: os bastonetes e
-        os cones. Os bastonetes são capazes de funcionar com uma quantidade
-        muito pequena de luz; no entanto, não conseguem captar cores. É por isso
-        que, à meia-luz, não conseguimos distinguir corretamente a coloração dos
-        objetos. Os cones, por outro lado, são neurônios responsáveis pela
-        distinção das diversas tonalidades de cores que somos capazes de
-        enxergar.
-      </h2>
-
-      <img style="margin: auto; display: block;"
-        src="imagens/visãocores.png"
-        title="Retina, cones e bastonetes"
-        width="550px"
-      />
-      <hr />
+      <section class="section2Visao">
+        <div>
+          <div class="contentCaracteristicas">
+            <h1 class="title
+            ">Como funciona</h1>
+            <p class="text">
+              Para que a nossa visão funcione, é necessário que os nossos olhos
+              captem uma quantidade mínima de luz. Existem dois tipos principais
+              de fotorreceptores, o centro da retina, chamado de fóvearetiniana,
+              é formado por cerca de 7 milhões de fibrilas nervosas, denominadas
+              cones, responsáveis pela visão em cores: visão tricomática. As
+              células que captam os estímulos luminosos fornecidos pelo
+              ambiente: os bastonetes e os cones. Os bastonetes são capazes de
+              funcionar com uma quantidade muito pequena de luz; no entanto, não
+              conseguem captar cores. É por isso que, à meia-luz, não
+              conseguimos distinguir corretamente a coloração dos objetos. Os
+              cones, por outro lado, são neurônios responsáveis pela distinção
+              das diversas tonalidades de cores que somos capazes de enxergar.
+            </p>
+          </div>
+          <img
+            src="imagens/visaocores.jpeg"
+            title="Retina, cones e bastonetes"
+          />
+        </div>
+      </section>
     </main>
   </body>
 </html>
